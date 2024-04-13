@@ -58,9 +58,8 @@ li {
 
 .link__item{
   display: flex;
-  flex-direction: column;
   background-color: #FFF;
-  padding: .5rem;
+  padding: 1.3rem;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -70,10 +69,14 @@ li {
   transition: transform .5s ease;
   text-decoration: none;
   color: black;
+  position: relative;
   
 
   img {
     height: 40px;
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%, 0%);
   }
 }
 
